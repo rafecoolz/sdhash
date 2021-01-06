@@ -108,3 +108,9 @@ func Hash(filename string) (hash string, err error) {
 	// Comparing Digests
 	return "sdbf:", nil
 }
+
+// DiffFilenames returns the comparison value between the hashes of two files
+func DiffFilenames(filename1 string, filename2 string) (compareValue int, err error) {
+
+	return 0, nil
+}
